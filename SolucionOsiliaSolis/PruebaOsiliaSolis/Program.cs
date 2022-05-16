@@ -13,12 +13,25 @@ namespace PruebaOsiliaSolis
 
             
                 bool salir = true;
-                string opcion = "";
+                
 
             while (salir)
             {
                 List<container> listax = new List<container>();
-                buque buqueMAX = new buque("12342", "buquex", "chule", 4, 2, 1990, listax);
+                List<container> listaz = new List<container>();
+                buque buqueMAX = new buque("1234321312", "buquex", "chule", 4, 0, 1990, null);
+                buque elbuque = new buque("1234321323", "buquek", "argentina", 4, 0, 5990, null);
+                container elcontainer = new container("12345", "fruna", 25, 20, true, 20, buqueMAX);
+                container container2 = new container("54321", "samsung", 50, 40, false, 30, elbuque);
+                container container3 = new container("98765", "lenovo", 60, 20, true, 35, buqueMAX);
+                container container4 = new container("56789", "LG", 40, 20, false, 40, elbuque);
+                listax.Add(elcontainer);
+                listax.Add(container3);
+                listaz.Add(container2);
+                listaz.Add(container4);
+
+                Console.WriteLine(elcontainer);
+                Console.WriteLine(buqueMAX);
 
                 Console.WriteLine(buqueMAX.Codigo);
 

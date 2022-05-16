@@ -20,16 +20,30 @@ namespace PruebaOsiliaSolis
 
         public buque(string codigo, string nombre, string pais, int cantidadContainers, int cantidadContainersCargados, int gastoTransporte, List<container> listaContainers)
         {
-            this.codigo = codigo;
+            if (codigo.Length < 5)
+            {
+                Console.WriteLine("El código no tiene la longitud requerida");
+            }
+            else
+            {
+                this.codigo = codigo;
+            }
             this.nombre = nombre;
             this.pais = pais;
             this.cantidadContainers = cantidadContainers;
-            this.cantidadContainersCargados = cantidadContainersCargados;
+            if (cantidadContainersCargados > cantidadContainers)
+            {
+                Console.WriteLine("Se excede la capacidad de containers");
+            }
+            else {
+                this.cantidadContainersCargados = cantidadContainersCargados;
+            }
             this.gastoTransporte = gastoTransporte;
             this.listaContainers = listaContainers;
         }
 
-        public string Codigo { get => codigo; set => codigo = value; }
+        
+        public string Codigo { get => codigo;}
         public string Nombre { get => nombre; set => nombre = value; }
         public string Pais { get => pais; set => pais = value; }
         public int CantidadContainers { get => cantidadContainers; set => cantidadContainers = value; }

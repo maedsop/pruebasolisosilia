@@ -35,7 +35,15 @@ namespace PruebaOsiliaSolis
             this.capacidadMaxima = capacidadMaxima;
             this.tamano = tamano;
             this.esRefrigerado = esRefrigerado;
-            this.pesoActual = pesoActual;
+           if(pesoActual < 0)
+            {
+                Console.WriteLine("Ingrese un peso válido (Numero Positivo)");
+            } else if(pesoActual > capacidadMaxima){
+                Console.WriteLine("Peso excede capacidad máxima del container");
+            }
+            else {
+                this.pesoActual = pesoActual;
+            }
             this.Buque = Buque;
         }
 

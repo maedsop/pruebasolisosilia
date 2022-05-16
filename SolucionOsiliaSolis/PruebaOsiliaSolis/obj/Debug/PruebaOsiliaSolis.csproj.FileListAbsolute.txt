@@ -4,3 +4,8 @@ C:\Users\laboratorio\Source\Repos\pruebasolisosilia\SolucionOsiliaSolis\PruebaOs
 C:\Users\medua\source\repos\pruebasolisosilia\SolucionOsiliaSolis\PruebaOsiliaSolis\obj\Debug\PruebaOsiliaSolis.csproj.AssemblyReference.cache
 C:\Users\medua\source\repos\pruebasolisosilia\SolucionOsiliaSolis\PruebaOsiliaSolis\obj\Debug\PruebaOsiliaSolis.csproj.SuggestedBindingRedirects.cache
 C:\Users\medua\source\repos\pruebasolisosilia\SolucionOsiliaSolis\PruebaOsiliaSolis\obj\Debug\PruebaOsiliaSolis.csproj.CoreCompileInputs.cache
+C:\Users\medua\source\repos\pruebasolisosilia\SolucionOsiliaSolis\PruebaOsiliaSolis\bin\Debug\PruebaOsiliaSolis.exe.config
+C:\Users\medua\source\repos\pruebasolisosilia\SolucionOsiliaSolis\PruebaOsiliaSolis\bin\Debug\PruebaOsiliaSolis.exe
+C:\Users\medua\source\repos\pruebasolisosilia\SolucionOsiliaSolis\PruebaOsiliaSolis\bin\Debug\PruebaOsiliaSolis.pdb
+C:\Users\medua\source\repos\pruebasolisosilia\SolucionOsiliaSolis\PruebaOsiliaSolis\obj\Debug\PruebaOsiliaSolis.exe
+C:\Users\medua\source\repos\pruebasolisosilia\SolucionOsiliaSolis\PruebaOsiliaSolis\obj\Debug\PruebaOsiliaSolis.pdb

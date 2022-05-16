@@ -14,30 +14,23 @@ namespace PruebaOsiliaSolis
             
                 bool salir = true;
                 string opcion = "";
-                
-                 while (salir)
-                {
-                    Console.WriteLine("1. Agregar mascota");
-                    Console.WriteLine("2. Buscar mascota");
-                    Console.WriteLine("3. Borrar mascota");
-                    Console.WriteLine("4. Modificar mascota");
-                    Console.WriteLine("5. Salir");
 
-                    opcion = Console.ReadLine();
+            while (salir)
+            {
+                List<container> listax = new List<container>();
+                buque buqueMAX = new buque("12342", "buquex", "chule", 4, 2, 1990, listax);
 
-                    switch (opcion)
-                    {
-                        case "1":
-                            Console.WriteLine("Ingreso de nueva mascota");
-                        break;
+                Console.WriteLine(buqueMAX.Codigo);
 
-                }
+                Console.WriteLine("Presiona cualquier tecla para salir");
+                Console.ReadKey();
+                break;
 
 
 
-                
 
-                 }
+
+            }
 
 
 

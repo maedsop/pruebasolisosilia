@@ -16,7 +16,7 @@ namespace PruebaOsiliaSolis
         private int cantidadContainers;
         private int cantidadContainersCargados;
         private int gastoTransporte;
-        List<container> listaContainers = new List<container> { };
+        public List<container> listaContainers;
 
         public buque(string codigo, string nombre, string pais, int cantidadContainers, int cantidadContainersCargados, int gastoTransporte, List<container> listaContainers)
         {
@@ -36,10 +36,16 @@ namespace PruebaOsiliaSolis
         public int CantidadContainersCargados { get => cantidadContainersCargados; set => cantidadContainersCargados = value; }
         public int GastoTransporte { get => gastoTransporte; set => gastoTransporte = value; }
         public List<container> ListaContainers { get => listaContainers; set => listaContainers = value; }
-    }
 
+        public override string ToString()
+        {
 
+            return "Buque: Codigo - " + Codigo + ", Nombre - " + Nombre + ", Pais - " + Pais + ", Capacidad Máxima de Containers - " + CantidadContainers + ", Containers Cargados - " + CantidadContainersCargados + ", Costo de Transporte - " + GastoTransporte + ", Containers Cargados - " + ListaContainers;
+        }
+    } 
 
+    
+    
 
 
 }

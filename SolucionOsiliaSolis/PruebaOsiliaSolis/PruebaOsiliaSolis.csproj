@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="buque.cs" />
     <Compile Include="container.cs" />
+    <Compile Include="Metodos.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

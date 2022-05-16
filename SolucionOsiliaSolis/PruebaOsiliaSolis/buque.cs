@@ -13,7 +13,6 @@ namespace PruebaOsiliaSolis
         private string codigo;
         private string nombre;
         private string pais;
-        private string raza;
         private int cantidadContainers;
         private int cantidadContainersCargados;
         private int gastoTransporte;
@@ -24,7 +23,6 @@ namespace PruebaOsiliaSolis
             this.codigo = codigo;
             this.nombre = nombre;
             this.pais = pais;
-            this.raza = raza;
             this.cantidadContainers = cantidadContainers;
             this.cantidadContainersCargados = cantidadContainersCargados;
             this.gastoTransporte = gastoTransporte;
@@ -34,7 +32,6 @@ namespace PruebaOsiliaSolis
         public string Codigo { get => codigo; set => codigo = value; }
         public string Nombre { get => nombre; set => nombre = value; }
         public string Pais { get => pais; set => pais = value; }
-        public string Raza { get => raza; set => raza = value; }
         public int CantidadContainers { get => cantidadContainers; set => cantidadContainers = value; }
         public int CantidadContainersCargados { get => cantidadContainersCargados; set => cantidadContainersCargados = value; }
         public int GastoTransporte { get => gastoTransporte; set => gastoTransporte = value; }

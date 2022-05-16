@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static PruebaOsiliaSolis.buque;
 
 namespace PruebaOsiliaSolis
 {
@@ -14,7 +15,7 @@ namespace PruebaOsiliaSolis
         private byte tamano;
         private bool esRefrigerado;
         private int pesoActual;
-        public Buque buque;
+        public buque Buque;
 
         public string Codigo { get => codigo; }
         public string Marca { get => marca; set => marca = value;  }
@@ -35,7 +36,18 @@ namespace PruebaOsiliaSolis
             this.tamano = tamano;
             this.esRefrigerado = esRefrigerado;
             this.pesoActual = pesoActual;
-            this.buque = buque;
+            this.Buque = buque;
         }
+
+        public string refri(bool esRefrigerado)
+        {
+            return
+        }
+
+        public override string ToString()
+        {
+            return "Container: Codigo - " + Codigo + ", Marca - " + Marca + ", Capacidad Máxima - " + CapacidadMaxima + " kilos, Tamaño - " + Tamano + " pies, Refrigeración - " + EsRefrigerado + "";
+        }
+
     }
 }

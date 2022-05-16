@@ -60,6 +60,22 @@ namespace PruebaOsiliaSolis
             }
             return refrigerado;
         }
+        public container()
+        {
+
+        }
+        public bool puedeSubir(int nuevaCarga, int max, int actual)
+        {
+             bool res = true;
+             max = CapacidadMaxima;
+             actual = PesoActual;
+            if (nuevaCarga + actual > max)
+            {
+                res = false;
+                Console.WriteLine("Peso excede capacidad máxima");
+            }
+            return res;
+        }
 
         public override string ToString()
         {

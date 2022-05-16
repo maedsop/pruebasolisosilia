@@ -1,3 +1,6 @@
 C:\Users\laboratorio\Source\Repos\pruebasolisosilia\SolucionOsiliaSolis\PruebaOsiliaSolis\obj\Debug\PruebaOsiliaSolis.csproj.AssemblyReference.cache
 C:\Users\laboratorio\Source\Repos\pruebasolisosilia\SolucionOsiliaSolis\PruebaOsiliaSolis\obj\Debug\PruebaOsiliaSolis.csproj.SuggestedBindingRedirects.cache
 C:\Users\laboratorio\Source\Repos\pruebasolisosilia\SolucionOsiliaSolis\PruebaOsiliaSolis\obj\Debug\PruebaOsiliaSolis.csproj.CoreCompileInputs.cache
+C:\Users\medua\source\repos\pruebasolisosilia\SolucionOsiliaSolis\PruebaOsiliaSolis\obj\Debug\PruebaOsiliaSolis.csproj.AssemblyReference.cache
+C:\Users\medua\source\repos\pruebasolisosilia\SolucionOsiliaSolis\PruebaOsiliaSolis\obj\Debug\PruebaOsiliaSolis.csproj.SuggestedBindingRedirects.cache
+C:\Users\medua\source\repos\pruebasolisosilia\SolucionOsiliaSolis\PruebaOsiliaSolis\obj\Debug\PruebaOsiliaSolis.csproj.CoreCompileInputs.cache

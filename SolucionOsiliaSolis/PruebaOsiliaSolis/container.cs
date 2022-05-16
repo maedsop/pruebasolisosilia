@@ -29,25 +29,34 @@ namespace PruebaOsiliaSolis
             this.codigo = codigocontainer;
         }
 
-        public container(string codigo, string marca, int capacidadMaxima, byte tamano, bool esRefrigerado, int pesoActual, Buque buque) : this(codigo)
+        public container(string codigo, string marca, int capacidadMaxima, byte tamano, bool esRefrigerado, int pesoActual, buque Buque) : this(codigo)
         {
             this.marca = marca;
             this.capacidadMaxima = capacidadMaxima;
             this.tamano = tamano;
             this.esRefrigerado = esRefrigerado;
             this.pesoActual = pesoActual;
-            this.Buque = buque;
+            this.Buque = Buque;
         }
 
-        public string refri(bool esRefrigerado)
+        public string Refri(bool esRefri)
         {
-            return
+            string refrigerado = "";
+            if (esRefri == true)
+            {
+                refrigerado = "Si";
+            }
+            else
+            {
+                refrigerado = "No";
+            }
+            return refrigerado;
         }
 
         public override string ToString()
         {
-            return "Container: Codigo - " + Codigo + ", Marca - " + Marca + ", Capacidad Máxima - " + CapacidadMaxima + " kilos, Tamaño - " + Tamano + " pies, Refrigeración - " + EsRefrigerado + "";
-        }
+            return "Container: Codigo - " + Codigo + ", Marca - " + Marca + ", Capacidad Máxima - " + CapacidadMaxima + " kilos, Tamaño - " + Tamano + " pies, Refrigeración - " + Refri(esRefrigerado) + ", Peso Actual - " + PesoActual + " kilos, Buque Asociado - " + Buque.Nombre;
+                }
 
     }
 }

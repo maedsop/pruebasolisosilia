@@ -14,7 +14,7 @@ namespace PruebaOsiliaSolis
         private byte tamano;
         private bool esRefrigerado;
         private int pesoActual;
-        public Buque buque;
+        public buque buque;
 
         public string Codigo { get => codigo; }
         public string Marca { get => marca; set => marca = value;  }

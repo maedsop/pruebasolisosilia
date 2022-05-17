@@ -54,7 +54,7 @@ namespace PruebaOsiliaSolis
         public override string ToString()
         {
 
-            return "Buque: Codigo - " + Codigo + ", Nombre - " + Nombre + ", Pais - " + Pais + ", Capacidad Máxima de Containers - " + CantidadContainers + ", Containers Cargados - " + CantidadContainersCargados + ", Costo de Transporte - " + GastoTransporte + ", Containers Cargados - " + ListaContainers;
+            return "Buque: Codigo - " + Codigo + ", Nombre - " + Nombre + ", Pais - " + Pais + ", Capacidad Máxima de Containers - " + CantidadContainers + ",Cantidad de Containers Cargados - " + CantidadContainersCargados + ", Costo de Transporte - " + GastoTransporte + ", Containers Cargados - " + ListaContainers;
         }
     } 
 
